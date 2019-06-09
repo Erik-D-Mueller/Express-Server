@@ -1,5 +1,3 @@
-
-
 const express = require('express'); //creates a variable that requires express
 const path = require('path');
 
@@ -36,3 +34,10 @@ const PORT = process.env.PORT || 5000; // this checks an environment variable ca
 
 app.listen(PORT, () => console.log('Server started on port ${PORT}')); // The server needs to listen on a port
 
+
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+The code above listens on port 5000 and returns a json in response to a get request, its a json api, it also hosts a static folder.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
